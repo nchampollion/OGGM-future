@@ -9,12 +9,14 @@ The aim of this work is to think, discuss, exchange together about global modell
 The model accounts for glacier geometry (including contributory branches) and includes an explicit ice dynamics module and a calving parametrization. It can simulate past and future mass-balance, volume and geometry of (almost) any glacier in the world in a fully automated and extensible workflow. We rely exclusively on publicly available data for calibration and validation. OGGM is modular and supports novel modelling workflows: it loves to be remixed and reused! (see **https://oggm.org/** for more information about the model and code, and **https://gmd.copernicus.org/articles/12/909/2019/** for more information about the physic)
 
 ## **1. What is OGGM model able to do today (which is not ongoing work) ?**
+
 - Doing future long-term simulation, e.g. superior to 200-300 years
 - Performing climate variability simulations, e.g. looking to seasonal mass balances evolution or ENSO influence on global glacier mass variations
 - Coupling global hydrological model with runoff calculated by OGGM
 - 
 
 ## **2. Which studies can be performed by code development of the OGGM model (which code development) ?**
+
 - Global debris-covered simulations (global test and calibration of the development of the debris-covered parametrisation)
 - Influence of ocean water warming to frontal ablation for tidewater glaciers (adding a temperature dependency to the frontal ablation)
 - Modeling rock glaciers (new surface mass-balance module and new rheology)
@@ -22,6 +24,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - 
 
 ## **3. Which studies could be possible to conduct with technological/theoritical break development (which technological/theoritical) ?**
+
 - Global coupling between the downscaling GCM-RCM and OGGM (computational ressources -> quantum computer)
 - Large-scale Mars ice sheet simulation (material which is not only ice, more observation about the glacier geometry and mass balance, maybe OGGM in 3D)
 - Surface velocity / surface mass balance / glacier outline data assimilation to reconstruct past global glacier variations (computational ressources and data)
@@ -31,6 +34,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - 
 
 ## **4. Where to go with a glacier model ?**
+
 - Which model complexity do we need ? For which goal ? Are more complex models the enemy of more precise simulations ?
 - What is the most suitable: a large and flexible community framework including lot of different SMB/ice dynamic modules or a large diversity of models ?
 - Is it a long-term perspective to couple OGGM SMB and 3D full-stokes ice dynamic ?
@@ -39,6 +43,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - 
 
 ## **5. Which essential scientific questions can not be replied with OGGM ?**
+
 - Long-term past reconstruction (glacial and inter-glacial eras)
 - Individual glacier simulations
 - 
@@ -47,4 +52,12 @@ The model accounts for glacier geometry (including contributory branches) and in
 
 **All ideas are welcome !** And their feasibility, philosophy, scientific and/or societal interests, if the suggested developments will improve our results, our knowledges, ... can be discussed during the workshop and beyond.
 
-Building a word cloud about what OGGM represents ?
+**Suggestion - building together a word cloud about what OGGM represents ?** For that, please write 3 to 5 words in the following link (please take care of the orthograph, use the British English spelling and uppercase the first letter): **https://answergarden.ch/2071148**
+
+**Authors** (please add your name here):
+##### Champollion Nicolas<sup>1</sup>, ...
+#####
+
+**Affiliations** (please add your affiliation here):
+##### <sup>1</sup> Institut des Géosciences de l'Environnement, UGA / CNRS / IRD / Grenoble-INP
+##### <sup>2</sup>
