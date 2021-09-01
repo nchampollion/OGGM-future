@@ -46,6 +46,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 
 - Long-term past reconstruction (glacial and inter-glacial eras)
 - Individual glacier simulations
+- Non linearities SMB-related processes depending on the OGGM future choices and philosophy ...
 - 
 
 ## **Conclusion**
