@@ -1,4 +1,4 @@
-# Building together the future of OGGM
+# Building together the future of glacier modelling - what will be glacier modelling in 5 years !
 
 The aim of this work is to think, discuss, exchange together about global modelling of mountain glaciers applied to the OGGM model in a calloborative way, thinking to short- and long-term modeling evolution, and by taking time! The results should serve us to provide ideas to our projects, code developments, students work and maybe more largely to other researchers. It also aims to advertise about the synergies between glacier models, and also the limitations. 
 
@@ -8,7 +8,7 @@ The aim of this work is to think, discuss, exchange together about global modell
 
 The model accounts for glacier geometry (including contributory branches) and includes an explicit ice dynamics module and a calving parametrization. It can simulate past and future mass-balance, volume and geometry of (almost) any glacier in the world in a fully automated and extensible workflow. We rely exclusively on publicly available data for calibration and validation. OGGM is modular and supports novel modelling workflows: it loves to be remixed and reused! (see **https://oggm.org/** for more information about the model and code, and **https://gmd.copernicus.org/articles/12/909/2019/** for more information about the physic)
 
-## **1. What is OGGM model able to do today (which is not ongoing work) ?**
+## **1. What is a glacier model (like OGGM) able to do today (which is not ongoing work) ?**
 
 - Doing future long-term simulation, e.g. superior to 200-300 years
 - Performing climate variability simulations, e.g. looking to seasonal mass balances evolution or ENSO influence on global glacier mass variations
@@ -16,7 +16,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - Document how to contribute in the core oggm code with examples at different levels and for different part of the modelling framework
 - 
 
-## **2. Which studies can be performed by code development of the OGGM model (which code development) ?**
+## **2. Which studies can be performed by code development of a glacier model (OGGM for example, adding which code development is needed) ?**
 
 - Global debris-covered simulations (global test and calibration of the development of the debris-covered parametrisation)
 - Influence of ocean water warming to frontal ablation for tidewater glaciers (adding a temperature dependency to the frontal ablation)
@@ -43,7 +43,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - Do we need surface energy budget into OGGM ?
 - 
 
-## **5. Which essential scientific questions can not be replied with OGGM ?**
+## **5. Which essential scientific questions can not be replied with a glacier model (or OGGM model) ?**
 
 - Long-term past reconstruction (glacial and inter-glacial eras)
 - Individual glacier simulations
