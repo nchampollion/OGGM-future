@@ -13,6 +13,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - Doing future long-term simulation, e.g. superior to 200-300 years
 - Performing climate variability simulations, e.g. looking to seasonal mass balances evolution or ENSO influence on global glacier mass variations
 - Coupling global hydrological model with runoff calculated by OGGM
+- Document how to contribute in the core oggm code with examples at different levels and for different part of the modelling framework
 - 
 
 ## **2. Which studies can be performed by code development of the OGGM model (which code development) ?**
