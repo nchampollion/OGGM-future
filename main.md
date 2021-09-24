@@ -14,7 +14,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - Performing climate variability simulations, e.g. looking to seasonal mass balances evolution or ENSO influence on global glacier mass variations
 - Coupling global hydrological model with runoff calculated by OGGM
 - Document how to contribute in the core oggm code with examples at different levels and for different part of the modelling framework
-- 
+g
 
 ## **2. Which studies can be performed by code development of a glacier model (OGGM for example, adding which code development is needed) ?**
 
@@ -48,6 +48,26 @@ The model accounts for glacier geometry (including contributory branches) and in
 - Long-term past reconstruction (glacial and inter-glacial eras)
 - Individual glacier simulations
 - Non linearities SMB-related processes depending on the OGGM future choices and philosophy ...
+
+## **6. OGGM braimstorming **
+- Best use of data (global dataset, mass balance, surface velocity ...) to calibrate OGGM to avoid spatial extrapolation and to validate the model - lot of challenges will come with these new dataset
+- Communication -> continuum between observation (in situ and remote sensing) and modelling; different solutions for different glaciers, different studies ...
+- Uncertainty evaluation, sort of ensemble simulation inside the glacier model (Bayesian approach); reduce the range of the ensemble by adding a new process; which statistical framework to test, calibrate and validate the range of the ensemble; uncertainties could be larger than what we expect
+- Keep in mind when building research ideas to work all together in terms of different communities
+- Workshops: which do we invite ? which topics have to be presentend / discussed ? exchange between scientific research
+- Next big steps: uncertainties, close range projections, future projection communication, smaller scales, think the work we do as scientific questions not for policymakers or sea-level science, importance of natural variability, using oggm for the past (attribution/validation) ...
+- Test cases for OGGM at individual glacier levels: high spatio-temporal resolution, lot of in situ data, understand what is not well represented into oggm compared to fine models, ...
+- Work in one glacier is not a solved problem ! and very hard for all models, not only oggm
+- Using hydrological model to compute sea-level contribution from glaciers
+- Is it still valid in 10 years to continue to model a glacier as a flowline model ? Distributed mass-balance model -> difficult problem about the ice mass over high elevation mountains
+- GPU for computation efficiency
+- OGGM is really a framework ! OGGM has to be ready for spatial mass balance (full stokes emulation fast enough for global application)
+- Running tidewater glaciers for transient simulation in the past
+- Glacier temperature sensitivity not constant over the time
+- Non existing glaciers into the inventory at the period of simulation
+- What oggm would like to have from wgms: global and temporal evolution of mass-balance, wgms being more accessible database (metadata), having several inventories in time (lookup table to check the data), 
+- How much oggm will be slower with uncertainty framework ? 
+- Data assimilation framework for oggm
 - 
 
 ## **Conclusion**
