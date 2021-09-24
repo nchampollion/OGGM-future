@@ -66,9 +66,20 @@ g
 - Glacier temperature sensitivity not constant over the time
 - Non existing glaciers into the inventory at the period of simulation
 - What oggm would like to have from wgms: global and temporal evolution of mass-balance, wgms being more accessible database (metadata), having several inventories in time (lookup table to check the data), 
-- How much oggm will be slower with uncertainty framework ? 
+- How much oggm will be slower with uncertainty framework ? Making OGGM faster
 - Data assimilation framework for oggm
-- 
+- Commun grants (observation and modelling): code development, dataset mangagement ...
+- How the OGGM community is growing with advantages and disavantages ? Very oppen to speak open in slack about plans, ideas ... because we are bigger than in the past, so maybe new comers are afraid to ask all the questions they have - we are not in computation in the community - not doing the work twice - putting the projects into the website for example with more details on the projects - slack channel for beginners 
+- For the next decade, combining oceanography, atmosphere, glacier modelling, hydrology ... (that's a dream ;-) 
+- Fear to add noise into OGGM slack: not a problem but good way to ask a question with a little scientific background (same for programming) - if the question is well prepared, be very welcome to ask everything - fear that the model is big, the community is big !
+- Automatic calibration when you use your own dataset
+- Protection of the code: rename of function for example -> warnings ...
+- PROJECT PLANS:
+  - better understand uncertainties and linearity assumption + seasonal / decadal forecast (Innsbruck project)
+  - roe's approach in a global scale (detection/attribution - Brêmen project)
+  - regional differences of glacier contribution to SLR, focus on climate downscalling and calibration/validation (Grenoble PhD thesis project)
+  - lake-terminating glaciers in HMA (Utrecht project)
+  - glacier modelling with complex model and data assimilation (Erlangen project)
 
 ## **Conclusion**
 
