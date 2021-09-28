@@ -2,13 +2,13 @@
 
 The aim of this work is to think, discuss, exchange together about global modelling of mountain glaciers (that could be applied to the framework of OGGM) in a calloborative way, thinking to short- and long-term modeling evolution, and by taking time! The results should serve us to provide ideas to our projects, code developments, students work and maybe more largely to other researchers. It also aims to advertise about the synergies between glacier models, and also the limitations. 
 
-## **Introduction**
+## Introduction
 
 **OGGM (Open Global Glacier Model) is an open source modelling framework for glaciers**
 
 The model accounts for glacier geometry (including contributory branches) and includes an explicit ice dynamics module and a calving parametrization. It can simulate past and future mass-balance, volume and geometry of (almost) any glacier in the world in a fully automated and extensible workflow. We rely exclusively on publicly available data for calibration and validation. OGGM is modular and supports novel modelling workflows: it loves to be remixed and reused! (see **https://oggm.org/** for more information about the model and code, and **https://gmd.copernicus.org/articles/12/909/2019/** for more information about the physic).
 
-## **1. What is a glacier model (like OGGM) able to do today (which is not ongoing work) ?**
+## 1. What is a glacier model (like OGGM) able to do today (which is not ongoing work) ?
 
 - Doing future long-term simulation, e.g. superior to 200-300 years
 - Performing climate variability simulations, e.g. looking to seasonal mass balances evolution or ENSO influence on global glacier mass variations
@@ -16,7 +16,7 @@ The model accounts for glacier geometry (including contributory branches) and in
 - Document how to contribute in the core oggm code with examples at different levels and for different part of the modelling framework
 g
 
-## **2. Which studies can be performed by code development of a glacier model (OGGM for example, adding which code development is needed) ?**
+## 2. Which studies can be performed by code development of a glacier model (OGGM for example, adding which code development is needed) ?
 
 - Global debris-covered simulations (global test and calibration of the development of the debris-covered parametrisation)
 - Influence of ocean water warming to frontal ablation for tidewater glaciers (adding a temperature dependency to the frontal ablation)
@@ -24,7 +24,7 @@ g
 - Global evolution of proglacial lakes (parametrisation of bedrock evolution after glacier retreat)
 - 
 
-## **3. Which studies could be possible to conduct with technological/theoritical break development (which technological/theoritical) ?**
+## 3. Which studies could be possible to conduct with technological/theoritical break development (which technological/theoritical) ?
 
 - Global coupling between the downscaling GCM-RCM and OGGM (computational ressources -> quantum computer)
 - Large-scale Mars ice sheet simulation (material which is not only ice, more observation about the glacier geometry and mass balance, maybe OGGM in 3D)
@@ -34,7 +34,7 @@ g
 - Monte-Carlo approach for global glacier simulations and derive uncertainties (defining the framework of the approach, maybe computational ressources)
 - 
 
-## **4. Where to go with a glacier model ?**
+## 4. Where to go with a glacier model ?
 
 - Which model complexity do we need ? For which goal ? Are more complex models the enemy of more precise simulations ?
 - What is the most suitable: a large and flexible community framework including lot of different SMB/ice dynamic modules or a large diversity of models ?
@@ -43,13 +43,14 @@ g
 - Do we need surface energy budget into OGGM ?
 - 
 
-## **5. Which essential scientific questions can not be replied with a glacier model (like OGGM model) ?**
+## 5. Which essential scientific questions can not be replied with a glacier model (like OGGM model) ?
 
 - Long-term past reconstruction (glacial and inter-glacial eras)
 - Individual glacier simulations
 - Non linearities SMB-related processes depending on the OGGM future choices and philosophy ...
 
-## **6. OGGM braimstorming **
+## 6. OGGM braimstorming
+
 - Best use of data (global dataset, mass balance, surface velocity ...) to calibrate OGGM to avoid spatial extrapolation and to validate the model - lot of challenges will come with these new dataset
 - Communication -> continuum between observation (in situ and remote sensing) and modelling; different solutions for different glaciers, different studies ...
 - Uncertainty evaluation, sort of ensemble simulation inside the glacier model (Bayesian approach); reduce the range of the ensemble by adding a new process; which statistical framework to test, calibrate and validate the range of the ensemble; uncertainties could be larger than what we expect
@@ -81,7 +82,7 @@ g
   - lake-terminating glaciers in HMA (Utrecht project)
   - glacier modelling with complex model and data assimilation (Erlangen project)
 
-## **Conclusion**
+## Conclusion
 
 **All ideas are welcome !** And their feasibility, philosophy, scientific and/or societal interests, if the suggested developments will improve our results, our knowledges, ... can be discussed during the workshop and beyond. Feel very free to participate !
 
