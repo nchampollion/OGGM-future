@@ -95,3 +95,5 @@ g
 **Affiliations** (please add your affiliation here):
 ##### <sup>1</sup> Institut des Géosciences de l'Environnement, UGA / CNRS / IRD / Grenoble-INP
 ##### <sup>2</sup>
+
+Link to https://docs.oggm.org/en/latest/oeps.html and https://github.com/OGGM/oggm/issues/805
