@@ -8,7 +8,7 @@ The aim of this work is to think, discuss, exchange together about global modell
 
 The model accounts for glacier geometry (including contributory branches) and includes an explicit ice dynamics module and a calving parametrization. It can simulate past and future mass-balance, volume and geometry of (almost) any glacier in the world in a fully automated and extensible workflow. We rely exclusively on publicly available data for calibration and validation. OGGM is modular and supports novel modelling workflows: it loves to be remixed and reused! (see **https://oggm.org/** for more information about the model and code, and **https://gmd.copernicus.org/articles/12/909/2019/** for more information about the physic).
 
-## 1. What is a glacier model (like OGGM) able to do today (which is not ongoing work) ?
+## 1. What is a glacier model (like OGGM) able to do today (ongoing work / projected work / not ongoing work) ?
 
 - Doing future long-term simulation, e.g. superior to 200-300 years
 - Performing climate variability simulations, e.g. looking to seasonal mass balances evolution or ENSO influence on global glacier mass variations
